@@ -1,0 +1,31 @@
+header, footer{
+    border: solid 5px #74d6d7;
+    background-color:#e2ffff;
+    border-radius:100px;
+    background:linear-gradient(to bottom, #e2ffff, #aff2f3);
+    font-weight:bold;
+}
+
+body{
+    color:#327777;
+    font-family:Helvetica;
+}
+
+.copy{
+    height:95px;
+}
+
+.icon{
+    width:100px;
+    background-color:black;
+    padding:0px;
+    margin:10px;
+    border:black 2px solid;
+    border-radius:10px;
+}
+
+.amiibo{
+    width:288px;
+    padding:0px;
+    margin:10px;
+}

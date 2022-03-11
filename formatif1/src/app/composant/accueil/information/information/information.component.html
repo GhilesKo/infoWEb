@@ -1,0 +1,16 @@
+<div >
+  <div  class="row">
+    <h2  >Résultat</h2>
+    <div>Voici les informations sur l'amiibo que vous avez recherché.</div>
+    <div class="row mt-3">
+      <div class="col-auto">
+        <img src="../assets/images/big_placeholder.png" alt="Amiibo" class="amiibo">
+      </div>
+      <div class="col pt-3">
+        <h4>Nom : <span> {{resultat.name}} </span></h4>
+        <div>Série de jeu : <span> {{resultat.gameserie}}</span></div>
+        <div>Date de sortie nord-américaine : <span>{{resultat.release | date}}</span></div>
+      </div>
+    </div>
+  </div>
+</div>

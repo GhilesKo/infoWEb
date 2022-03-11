@@ -1,0 +1,12 @@
+<div class="row">
+  <h2>Rechercher un amiibo</h2>
+  <div>Cliquez sur un personnage pour rechercher son amiibo ou écrivez vous-mêmes son nom.</div>
+
+  <!-- Image de personnage à afficher 4 fois -->
+  <img (click)="clicked(i.name)" *ngFor="let i of characters" [src]=i.src alt="Personnage" class="icon">
+
+  <form >
+    <input  [(ngModel)]="clickedname" type="text" placeholder="Ex. Waluigi" name="character">
+    <button type="submit" (click)="getAmiido(); ">Rechercher</button>
+  </form>
+</div>
